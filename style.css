@@ -1,5 +1,85 @@
 /*COLORS:
 Header background - #FFDBAA
-button - #805215
+button - c
 Header Text - #553100
 Main background - #D4A76A*/
+
+html {
+  background-color: #D4A76A;
+  font-family: Arial;
+}
+
+button {
+  background-color: #805215;
+  color: white;
+  font-weight: bold;
+}
+
+#top {
+  background-color: #FFDBAA;
+  margin: -10px;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-bottom: 70px;
+  font-size: 40px;
+  color: #553100;
+  font-weight: bold;
+  align-content: left;
+  border-bottom: solid black;
+}
+
+#header {
+  width: 500px;
+}
+
+#top button {
+  height: 50px;
+  width: 180px;
+  font-size: 30px;
+  border-width: 0;
+  margin: 10px;
+  margin-right: 0;
+}
+
+#info {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+}
+
+#info #left, #info #middle, #info #right{
+  background-color: white;
+  width: 370px;
+  height: 200px;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+  padding-bottom: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: solid black;
+  display: inline-block;
+}
+#info button {
+  width: 350px;
+  height: 60px;
+  font-size: 30px;
+  margin: 20px;
+}
+
+#about {
+  background-color: white;
+  font-size: 25px;
+  padding: 20px;
+  margin: 50px;
+  border: solid black;
+  text-align: center;
+}
+
+#about button {
+  font-size: 30px;
+  margin: 20px;
+  height: 60px;
+  display: block;
+  width: 98%;
+}
